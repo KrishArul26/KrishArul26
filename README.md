@@ -4,7 +4,7 @@
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on Deep learning project which are Face Mask detection using Faster-Rcnn
-- 🌱 I’m currently learning at ME in the field of Mobility & Automotive Engineering
+- 🌱 I’m currently learning at ME in the field of Mobility & Automotive Engineering Facous on Autonomous
 - 👯 I’m looking to collaborate on interenships related to deep learning task suchas CNN,NLP nad RNN
 - 🤔 I’m looking for help with who would like to study data science
 - 💬 Ask me about ...
