@@ -7,6 +7,7 @@
 <h2 align="left"> - 🤔 I’m looking for help with who would like to study data science and Mathematics</h2>
 <h2 align="left"> - 💬 Ask me about ... Strength and Weakeness </h2>
 <h2 align="left"> - 📫💬 How to reach me: [Linkdin](https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/)
+  [Linkdin](https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/)
   [linkdin] (https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/) & [Gmail] (ragavan.arul26@gmail.com)</h2>
 <h2 align="left"> - 😄 Pronouns: He/His </h2>
 <h2 align="left"> - 😄 ⚡ Fun fact: ... </h2>
