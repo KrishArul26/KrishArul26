@@ -9,4 +9,4 @@
 <h2 align="left"> - 📫💬 How to reach me:[Linkdin](https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/) & [Gmail](ragavan.arul26@gmail.com)</h2>
 <h2 align="left"> - 😄 Pronouns: He/His </h2>
 <h2 align="left"> - 😄 ⚡ Fun fact: ... </h2>
-[Linkdin](https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/)
+
