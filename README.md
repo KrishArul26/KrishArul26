@@ -11,6 +11,8 @@
 
 <h3 align="left"> - 💬 Ask me about ... Strength and Weakeness </h3>
 
+<h3 align="left"> - 📫💬 How to reach me:[Linkdin](https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/)
+
 <h3 align="left"> - 😄 Pronouns: He/His </h3>
   
 <h3 align="left"> - 😄 ⚡ Fun fact: ... </h3>
