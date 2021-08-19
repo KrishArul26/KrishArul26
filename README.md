@@ -1,15 +1,16 @@
 
 <h3 align="left"> Hi 👋 there, 
   
-        I am Kirsnaragavan, My Enthusiastic in the field of Machine Learning and AI. I also completed few End-to-End 
   
-        project related filed of Computer - Vision, Object Detection, Automobile Area and Classification Problem using ML.
-  
-        Apart from that, I have solid Knowledge in the domain of Data analytics using PowerBI, MySQL and R programming. 
-  
-        I am always curious to learn something new and I believe in keep learning for Experience and Practice. 
+    I am Kirsnaragavan, My Enthusiastic in the field of Machine Learning and AI. I also completed few 
 
-</h3>
+    End-to-End project related filed of Computer - Vision, Object Detection, Automobile Area and Classification 
+
+    Problem using ML. Apart from that, I have solid Knowledge in the domain of Data analytics using PowerBI, 
+
+    MySQL and R programming. I am always curious to learn something new and I believe in keep learning for 
+
+    Experience and Practice.</h3>
 
 <h3 align="left"> Here are some ideas to get you started:</h3>
 
