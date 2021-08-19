@@ -9,19 +9,25 @@
   
     Data analytics using PowerBI, MySQL and R programming. I am always curious to learn something 
   
-  new and I believe in keep learning for Experience and Practice.
+    new and I believe in keep learning for Experience and Practice.
+  
 
 </h3>
 
+
+
 <h3 align="left"> Here are some ideas to get you started:</h3>
 
-<p style= 'text-align: justify;'> 
+
+<h3 align="left"> 
   
        🔭 I’m currently working on  Autonomous vehicles project with the help of openCV.
 
-</p>
+  
+</h3>
 
-<p style= 'text-align: justify;'> 
+
+<h3 align="left"'> 
   
       🌱  An independent and self-motivated Master’s in Mobility and Automotive Engineering  facous on Autnomous looking 
 
@@ -31,27 +37,31 @@
 
           in real-world cases.
 
-</p>
+</h3>
+                 
 
-<p style= 'text-align: justify;'> 
+<h3 align="left"> 
   
       👯 I’m looking to collaborate on interenships related to Machine Learnine and deep learning task.
 
-</p>
+</h3>
+                 
 
-<p style= 'text-align: justify;'> 
+<h3 align="left"> 
   
       👯 🤔 I’m currently Deep-Learning About 'DATA' | Learned How The Machine Learns |
 
         Curious About How The Machines Become Intelligent.
 
-</p>
+</h3>
+                                                    
 
-<p style= 'text-align: justify;'> 
+<h3 align="left"> 
 
       💬 Ask me about ... Strength and Weakeness
 
-</p>
+</h3>
+                                                    
 
 <h3 align="left"> 
   
