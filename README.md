@@ -38,7 +38,9 @@
 
 <p style= 'text-align: justify;'> 
   
-              👯 🤔 I’m currently Deep-Learning About 'DATA' | Learned How The Machine Learns | Curious About How The Machines Become Intelligent.
+              👯 🤔 I’m currently Deep-Learning About 'DATA' | Learned How The Machine Learns |
+    
+                Curious About How The Machines Become Intelligent.
 
 </p>
 
@@ -51,7 +53,7 @@
               😄 Pronouns: He/His </h3>
 
 
-                📫💬 How to reach me:[Linkdin](https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/)
+📫💬 How to reach me:[Linkdin](https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/)
 
 
 
