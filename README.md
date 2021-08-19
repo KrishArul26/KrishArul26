@@ -20,39 +20,39 @@
 
 <p style= 'text-align: justify;'> 
   
-        🌱  An independent and self-motivated Master’s in Mobility and Automotive Engineering  facous on Autnomous looking 
+      🌱  An independent and self-motivated Master’s in Mobility and Automotive Engineering  facous on Autnomous looking 
 
-            for an Opportunity in the World Of Data Science. Good skills in collecting, analyzing, and interpreting large datasets 
+          for an Opportunity in the World Of Data Science. Good skills in collecting, analyzing, and interpreting large datasets 
 
-            through Python and Machine Learning Techniques for solving key business problems. Very eager to apply acquired skills 
+          through Python and Machine Learning Techniques for solving key business problems. Very eager to apply acquired skills 
 
-            in real-world cases.
-
-</p>
-
-<p style= 'text-align: justify;'> 
-  
-        👯 I’m looking to collaborate on interenships related to Machine Learnine and deep learning task.
+          in real-world cases.
 
 </p>
 
 <p style= 'text-align: justify;'> 
   
-        👯 🤔 I’m currently Deep-Learning About 'DATA' | Learned How The Machine Learns |
-
-          Curious About How The Machines Become Intelligent.
+      👯 I’m looking to collaborate on interenships related to Machine Learnine and deep learning task.
 
 </p>
 
 <p style= 'text-align: justify;'> 
   
-        💬 Ask me about ... Strength and Weakeness
+      👯 🤔 I’m currently Deep-Learning About 'DATA' | Learned How The Machine Learns |
+
+        Curious About How The Machines Become Intelligent.
+
+</p>
+
+<p style= 'text-align: justify;'> 
+
+      💬 Ask me about ... Strength and Weakeness
 
 </p>
 
 <h3 align="left"> 
   
-        😄 Pronouns: He/His </h3>
+      😄 Pronouns: He/His </h3>
 
 
 📫💬 How to reach me, Please click the following links(Linkdin, Gmail):
