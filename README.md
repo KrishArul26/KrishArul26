@@ -53,7 +53,7 @@
               😄 Pronouns: He/His </h3>
 
 
-📫💬 How to reach me:
+📫💬 How to reach me, Please click the following links(Linkdin, Gmail):
 
 [Linkdin](https://www.linkedin.com/in/arudpiragasam-krishnaragavan-a60590163/)
 
