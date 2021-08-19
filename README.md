@@ -1,4 +1,3 @@
-
 <h3 align="left"> Hi 👋 there, 
   
   
@@ -10,7 +9,9 @@
 
     MySQL and R programming. I am always curious to learn something new and I believe in keep learning for 
 
-    Experience and Practice.</h3>
+    Experience and Practice.
+
+</h3>
 
 <h3 align="left"> Here are some ideas to get you started:</h3>
 
