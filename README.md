@@ -1,4 +1,5 @@
-<p style= 'text-align: justify;'> Hi 👋 there, 
+
+<h2 align="left"> Hi 👋 there, 
   
         I am Kirsnaragavan, My Enthusiastic in the field of Machine Learning and AI. I also completed few End-to-End 
   
@@ -8,7 +9,7 @@
   
         I am always curious to learn something new and I believe in keep learning for Experience and Practice. 
 
-</p>
+</h2>
 
 <h3 align="left"> Here are some ideas to get you started:</h3>
 
