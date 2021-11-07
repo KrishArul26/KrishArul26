@@ -11,30 +11,27 @@
     automating data-driven processes with proven ability to adapt to new frameworks, technologies, and programming languages with ease.  
     
     
-    TECHNICAL PROFICIENCY
+    TECHNICAL PROFICIENCY 
     
-    <h3 align="left">  </h3> 
-    
-    
-    1.  - Advanced
-    
-    2.  – 
-    
-    3.  - 
-    
-    4. – 
+                                                                    Frameworks
     
     
-    ### Evaluation Matrix
-    
-| Frameworks                 | Level      |
-| ---------------------------| -----------|
-|       TensorFlow & Keras   | Advanced   |
-|-----------------------------------------|
-|       PyTorch              | Advanced   |
-|       Flask                | Advanced   |
-|       Beautiful Soup       | Advanced   |
+                                                    |-----------------------------------------|
+                                                    | Frameworks                 | Level      |
+                                                    | ---------------------------| -----------|
+                                                    |       TensorFlow & Keras   | Advanced   |
+                                                    |-----------------------------------------|
+                                                    |       PyTorch              | Advanced   |
+                                                    |-----------------------------------------|
+                                                    |       Flask                | Advanced   |
+                                                    |-----------------------------------------|
+                                                    |       Beautiful Soup       | Advanced   |
+                                                    |-----------------------------------------|
+
+
 ```
+
+
 
 <h3 align="left"> Here are some ideas to get you started:</h3>
 
