@@ -2,13 +2,15 @@
 
   ```  
   
-  * Ambitious engineer, ready to leverage my passion and enthusiasm for data science and machine learning. 
-
-    Swift learner, adept in cultivating positive relationships, and known for solid team collaborations 
-
-    while consistently delivering on time and upholding high-quality standards. Skilled in optimizing and 
-
-    automating data-driven processes with proven ability to adapt to new frameworks, technologies, and programming languages with ease.  
+  * I'm Kirsnaragavan, I'm GOOGLE certified TensorFlow Developer and GOOGLE - CLOUD Certified Associate Cloud Engineer 
+  
+    as well as an Ambitious engineer, ready to leverage my passion and enthusiasm for data science and machine learning. 
+    
+    Swift learner, adept in cultivating positive relationships, and known for solid team collaborations while consistently 
+    
+    delivering on time and upholding high-quality standards. Skilled in optimizing and automating data-driven processes 
+    
+    with proven ability to adapt to new frameworks, technologies, and programming languages with ease.  
     
     
     TECHNICAL PROFICIENCY 
