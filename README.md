@@ -2,14 +2,28 @@
 
   ```  
   
-Ambitious engineer, ready to leverage my passion and enthusiasm for data science and machine learning. 
+* Ambitious engineer, ready to leverage my passion and enthusiasm for data science and machine learning. 
 
-Swift learner, adept in cultivating positive relationships, and known for solid team collaborations 
+  Swift learner, adept in cultivating positive relationships, and known for solid team collaborations 
 
-while consistently delivering on time and upholding high-quality standards. Skilled in optimizing and 
+  while consistently delivering on time and upholding high-quality standards. Skilled in optimizing and 
 
-automating data-driven processes with proven ability to adapt to new frameworks, technologies, and programming languages with ease.  
+  automating data-driven processes with proven ability to adapt to new frameworks, technologies, and programming languages with ease.  
     
+    ```
+    Frameworks
+    
+    
+    1. TensorFlow & Keras - Advanced
+    
+    2. PyTorch – Advanced
+    
+    3. Flask - Advanced
+    
+    4. Web-Scrapping– Beautiful Soup
+    
+    
+    ```
   
 ```
 
