@@ -30,6 +30,7 @@
 | Frameworks                 | Level      |
 | ---------------------------| -----------|
 |       TensorFlow & Keras   | Advanced   |
+|-----------------------------------------|
 |       PyTorch              | Advanced   |
 |       Flask                | Advanced   |
 |       Beautiful Soup       | Advanced   |
