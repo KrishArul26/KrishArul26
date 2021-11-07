@@ -21,6 +21,15 @@
     3. Flask - Advanced
     
     4. Web-Scrapping– Beautiful Soup
+    
+    
+    ### Evaluation Matrix
+    
+| Evaluation Parameter   | Value    |
+| -------------          | ---------|
+|       MAE              | 43.505   |
+|       MSE              | 3335.414 |
+|       RMSE             | 57.753   |
   
 ```
 
