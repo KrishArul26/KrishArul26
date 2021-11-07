@@ -63,18 +63,17 @@
 
 
 
-<h3 align="left"> Here are some ideas to get you started:</h3>
+<h3 align="left">🔭   Here are some ideas to get you started:</h3>
 
-
-<h3 align="left"> 
+  ```
   
-       🔭 I’m currently working on  Autonomous vehicles project with the help of openCV
-        
-        And AI-Based Automatic Car Parking System.
-
+  I’m currently working on  Paper Publication for the SPIE Conference which will be held in the USA. 
   
-</h3>
-
+  And This paper is related to Camera fusion and object detection, image classification using AI techniques.
+ 
+  
+  ```
+  
 
 <h3 align="left"'> 
   
