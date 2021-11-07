@@ -65,6 +65,8 @@
 
 <h3 align="left">🔭   Here are some ideas to get you started:</h3>
 
+
+
   ```
   
   I’m currently working on  Paper Publication for the SPIE Conference which will be held in the USA. 
@@ -74,18 +76,23 @@
   
   ```
   
-
-<h3 align="left"'> 
   
-      🌱  An independent and self-motivated Master’s in Mobility and Automotive Engineering  facous on Autnomous looking 
+  ```
+  
+  
+      🌱  An independent and self-motivated Master’s in Mobility and Automotive Engineering focus on Artificial Intelligence.
+      
+          Right now, I’m looking for an opportunity in the real world of  Data Science. Good skills in collecting, analyzing, 
+          
+          And interpreting large datasets through Python and Machine Learning Techniques for solving key business problems. 
+          
+          
+          Very eager to apply acquired skills in real-world cases.
+          
+          
+```
 
-          for an Opportunity in the World Of Data Science. Good skills in collecting, analyzing, and interpreting large datasets 
 
-          through Python and Machine Learning Techniques for solving key business problems. Very eager to apply acquired skills 
-
-          in real-world cases.
-
-</h3>
                  
 
 <h3 align="left"> 
