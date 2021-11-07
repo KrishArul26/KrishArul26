@@ -2,15 +2,13 @@
 
   ```  
   
-    I am Kirsnaragavan, My Enthusiastic in the field of Machine Learning and AI. I also completed few 
+Ambitious engineer, ready to leverage my passion and enthusiasm for data science and machine learning. 
 
-    End-to-End project related filed of Computer - Vision, Object Detection, Automobile Area and  
+Swift learner, adept in cultivating positive relationships, and known for solid team collaborations 
 
-    Classification Problem using ML. Apart from that, I have solid Knowledge in the domain of 
-  
-    Data analytics using PowerBI, MySQL and R programming. I am always curious to learn something 
-  
-    new and I believe in keep learning for Experience and Practice.
+while consistently delivering on time and upholding high-quality standards. Skilled in optimizing and 
+
+automating data-driven processes with proven ability to adapt to new frameworks, technologies, and programming languages with ease.  
     
   
 ```
