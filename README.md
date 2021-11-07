@@ -11,26 +11,28 @@
     automating data-driven processes with proven ability to adapt to new frameworks, technologies, and programming languages with ease.  
     
     
-    <h3 align="left"> Frameworks </h3> 
+    TECHNICAL PROFICIENCY
+    
+    <h3 align="left">  </h3> 
     
     
-    1. TensorFlow & Keras - Advanced
+    1.  - Advanced
     
-    2. PyTorch – Advanced
+    2.  – 
     
-    3. Flask - Advanced
+    3.  - 
     
-    4. Web-Scrapping– Beautiful Soup
+    4. – 
     
     
     ### Evaluation Matrix
     
-| Evaluation Parameter   | Value    |
-| -------------          | ---------|
-|       MAE              | 43.505   |
-|       MSE              | 3335.414 |
-|       RMSE             | 57.753   |
-  
+| Frameworks                 | Level      |
+| ---------------------------| -----------|
+|       TensorFlow & Keras   | Advanced   |
+|       PyTorch              | Advanced   |
+|       Flask                | Advanced   |
+|       Beautiful Soup       | Advanced   |
 ```
 
 <h3 align="left"> Here are some ideas to get you started:</h3>
