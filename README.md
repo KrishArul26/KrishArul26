@@ -1,5 +1,7 @@
 <h3 align="left"> Hi 👋 there, </h3>
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username = &theme=radical)
+
   ```  
   
   * I'm Kirsnaragavan, I'm GOOGLE certified TensorFlow Developer and GOOGLE - CLOUD Certified Associate Cloud Engineer 
@@ -15,7 +17,6 @@
     
   ```
     
-    ![GitHub Stats](https://github-readme-stats.vercel.app/api?username = &theme=radical)
     
   ```
     
