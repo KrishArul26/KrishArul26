@@ -12,8 +12,12 @@
     
     with proven ability to adapt to new frameworks, technologies, and programming languages with ease.  
     
+    
+    ```
+    
     ![GitHub Stats](https://github-readme-stats.vercel.app/api?username = &theme=radical)
     
+    ```
     
     TECHNICAL PROFICIENCY 
     
