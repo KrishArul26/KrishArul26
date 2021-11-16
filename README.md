@@ -1,7 +1,4 @@
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username =KrishArul26 & theme=radical)
 <h3 align="left"> Hi 👋 there, </h3>
-
-
 
   ```  
   
@@ -17,7 +14,9 @@
     
     
   ```
-    
+  <p align="center">
+  <img width="800" src="https://github-readme-stats.vercel.app/api?username=KrishArul26&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515">
+</p>  
     
   ```
     
