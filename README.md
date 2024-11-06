@@ -41,13 +41,13 @@
                                                     |----------------------------|------------|
                                                     | Languages                  | Level      |
                                                     | ---------------------------| -----------|
-                                                    | Python(Production level)   | Advanced   |
+                                                    | Python                     | Advanced   |
                                                     |----------------------------|------------|
                                                     |       R                    | Advanced   |
                                                     |----------------------------|------------|
-                                                    |       JavaScript           | Advanced   |
+                                                    |       JavaScript           | Medium   |
                                                     |----------------------------|------------|
-                                                    |       HTML                 | Advanced   |
+                                                    |       HTML                 | Medium   |
                                                     |----------------------------|------------|
                                                     
                                                                 DataBases - Tools
