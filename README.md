@@ -2,6 +2,14 @@
 
 <h3 align="left"> Hi 👋 there, </h3>
 
+<div align="center">
+  <a href="https://krisharul26.github.io/KrishArul26/portfolio/index.html">
+    <img src="https://img.shields.io/badge/View_My_Portfolio-Website-bb2acf?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio" height="50" />
+  </a>
+  <br><br>
+  <p>🚀 <strong>Check out my new interactive 3D Portfolio!</strong> 🚀</p>
+</div>
+
 <p>
   I'm Kirsnaragavan, a GOOGLE-certified TensorFlow Developer and GOOGLE-CLOUD Certified Associate Cloud Engineer.  
   An ambitious engineer, eager to leverage my passion for data science and machine learning.  
