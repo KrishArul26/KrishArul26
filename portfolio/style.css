@@ -452,6 +452,49 @@ html {
     transform: scale(1.01);
 }
 
+.showcase-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.yt-btn:hover {
+    background: #ff0033;
+}
+
+.proof-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.9rem 1.2rem;
+    margin-bottom: 1.5rem;
+    background: rgba(255, 0, 51, 0.08);
+    border: 1px solid rgba(255, 0, 51, 0.35);
+    border-radius: 12px;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.proof-banner .fa-youtube {
+    font-size: 1.5rem;
+    color: #ff0033;
+}
+
+.proof-banner span {
+    flex: 1;
+}
+
+.proof-banner .fa-arrow-up-right-from-square {
+    color: var(--text-secondary);
+}
+
+.proof-banner:hover {
+    background: rgba(255, 0, 51, 0.15);
+    transform: translateY(-2px);
+}
+
 /* Workflow diagrams */
 .workflow {
     display: flex;
