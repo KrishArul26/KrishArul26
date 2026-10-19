@@ -287,7 +287,8 @@ html {
 
 .tech-stack {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
     margin-bottom: 1.5rem;
     font-size: 0.85rem;
     color: var(--accent-color);
@@ -303,6 +304,147 @@ html {
 
 .sm-btn:hover {
     background: var(--gradient-2);
+}
+
+.card-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.project-card h3 i {
+    color: var(--accent-color);
+    margin-right: 0.4rem;
+}
+
+.private-note {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* Hero stats */
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+    padding: 1rem 1.25rem;
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+}
+
+.stat-value {
+    font-size: 1.6rem;
+    font-weight: 800;
+    background: linear-gradient(45deg, var(--gradient-1), var(--gradient-2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+/* Experience timeline */
+.timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    border-left: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+.timeline-item {
+    position: relative;
+    padding: 0 0 2.5rem 2rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 0.4rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.timeline-date {
+    font-size: 0.85rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.timeline-body h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.timeline-body .company {
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.timeline-body ul {
+    padding-left: 1.1rem;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.timeline-body li {
+    margin-bottom: 0.4rem;
+}
+
+.skill-category h3 i {
+    color: var(--accent-color);
+    margin-right: 0.4rem;
+}
+
+/* Certifications */
+.section-tight {
+    padding-top: 2rem;
+}
+
+.cert-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cert-card {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 1rem 1.5rem;
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.cert-card i {
+    color: var(--accent-color);
+}
+
+.cert-card:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-3px);
 }
 
 /* Contact */
@@ -355,11 +497,48 @@ footer {
         font-size: 2.5rem;
     }
     
-    .nav-links {
-        display: none; /* Mobile menu to be implemented if needed */
+    .subtitle {
+        font-size: 1.4rem;
     }
-    
+
+    .hero-section {
+        height: auto;
+        min-height: 100vh;
+        padding: 7rem 5% 3rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: rgba(10, 10, 10, 0.97);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 1rem 5%;
+    }
+
     .hamburger {
         display: block;
     }
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: var(--text-primary);
 }
