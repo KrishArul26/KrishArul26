@@ -495,6 +495,46 @@ html {
     transform: translateY(-2px);
 }
 
+.proof-media {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.phone-frame {
+    flex: 0 0 auto;
+    display: block;
+    width: 200px;
+    padding: 8px;
+    background: #050505;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 26px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.phone-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.proof-text {
+    flex: 1 1 320px;
+}
+
+.proof-text p {
+    color: var(--text-secondary);
+    margin-bottom: 1.2rem;
+}
+
+.proof-text .proof-banner {
+    margin-bottom: 0;
+}
+
 /* Workflow diagrams */
 .workflow {
     display: flex;
