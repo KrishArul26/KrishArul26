@@ -433,6 +433,92 @@ html {
     border-radius: 4px;
 }
 
+.showcase-img {
+    display: block;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.showcase-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: var(--transition);
+}
+
+.showcase-img:hover img {
+    transform: scale(1.01);
+}
+
+/* Workflow diagrams */
+.workflow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+}
+
+.wf-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    min-width: 92px;
+    padding: 0.7rem 0.6rem;
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-size: 0.78rem;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.wf-step i {
+    font-size: 1.05rem;
+    color: var(--gradient-2);
+}
+
+.wf-key {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 12px rgba(187, 42, 207, 0.25);
+}
+
+.wf-key i {
+    color: var(--accent-color);
+}
+
+.wf-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.wf-small {
+    flex-direction: row;
+    min-width: 165px;
+    padding: 0.45rem 0.7rem;
+    text-align: left;
+}
+
+.wf-small i {
+    font-size: 0.9rem;
+    width: 1.1rem;
+}
+
+.wf-arrow {
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+}
+
 .subsection-title {
     font-size: 1.4rem;
     margin: 3rem 0 1.5rem;
