@@ -19,9 +19,9 @@
         <ul class="nav-links">
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -34,14 +34,16 @@
             <h1>Hi, I'm Kirsnaragavan</h1>
             <h2 class="subtitle">Automation Test Engineer &amp; <span class="gradient-text">AI Builder</span></h2>
             <p class="hero-description">
-                I build test automation, CI/CD pipelines and AI-driven tools for automotive infotainment
-                at MBition (Mercedes-Benz), and in my own time I automate everything from trading to video production.
+                By day I build test automation for Mercedes-Benz infotainment at MBition. In my own time I build
+                AI systems that automate real problems: trading the markets, producing YouTube videos and finding a used car.
             </p>
-            <div class="hero-stats">
-                <div class="stat"><span class="stat-value">4+</span><span class="stat-label">years at MBition</span></div>
+            <div class="hero-projects">
+                <a href="#projects" class="hero-chip"><i class="fas fa-chart-line"></i> Trading Bot PRO</a>
+                <a href="#projects" class="hero-chip"><i class="fab fa-youtube"></i> YouTube Shorts Automation</a>
+                <a href="#projects" class="hero-chip"><i class="fas fa-car-side"></i> Used-Car Search</a>
             </div>
             <div class="cta-buttons">
-                <a href="#projects" class="btn primary-btn">View Work</a>
+                <a href="#projects" class="btn primary-btn">View Projects</a>
                 <a href="#contact" class="btn secondary-btn">Contact Me</a>
             </div>
         </div>
@@ -62,6 +64,148 @@
                     Professional Machine Learning Engineer. That ML background now feeds back into my testing work,
                     for example object detection to verify instrument-cluster icons.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Personal Projects</h2>
+            <p class="section-intro">
+                Outside work I build end-to-end automation systems that combine LLMs, machine learning and
+                classic engineering. Each one started as a problem in my own life.
+            </p>
+
+            <article class="showcase">
+                <div class="showcase-head">
+                    <div>
+                        <div class="card-label">AI · Quantitative Finance</div>
+                        <h3><i class="fas fa-chart-line"></i> Trading Bot PRO</h3>
+                    </div>
+                    <a href="https://github.com/KrishArul26/Trading_Bot_PRO" target="_blank" rel="noopener" class="btn sm-btn"><i class="fab fa-github"></i> Architecture &amp; Docs</a>
+                </div>
+                <p class="project-desc">
+                    A 24/7 automated trading system for Forex, CFD and metals markets. It runs several strategies
+                    in parallel and only trades when technical signals, deep-learning forecasts and news sentiment agree,
+                    with strict risk rules protecting the account.
+                </p>
+                <div class="showcase-grid">
+                    <div>
+                        <h4>Highlights</h4>
+                        <ul>
+                            <li><strong>Multi-strategy engine:</strong> Parabolic SAR, SuperTrend, UT Bot, Ichimoku, Smart Money Concepts and candlestick patterns</li>
+                            <li><strong>Deep learning:</strong> LSTM and CNN models forecast price movement from historical data</li>
+                            <li><strong>Local LLM sentiment:</strong> Llama 3.2 on Ollama classifies financial headlines offline with few-shot prompting</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Engineering</h4>
+                        <ul>
+                            <li><strong>Risk management:</strong> position sizing, trailing stop-loss and a daily loss limit</li>
+                            <li><strong>Backtesting:</strong> Sharpe ratio, max drawdown, win rate and profit factor before going live</li>
+                            <li><strong>Observability:</strong> Flask REST API, React dashboard and trade alerts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tech-stack">
+                    <span>Python</span><span>TensorFlow</span><span>Ollama</span><span>Pandas</span><span>Flask</span><span>React</span>
+                </div>
+            </article>
+
+            <article class="showcase">
+                <div class="showcase-head">
+                    <div>
+                        <div class="card-label">Generative AI · Media Automation</div>
+                        <h3><i class="fab fa-youtube"></i> YouTube Shorts Automation</h3>
+                    </div>
+                    <a href="https://github.com/KrishArul26/YouTube_Automation_PRO" target="_blank" rel="noopener" class="btn sm-btn"><i class="fab fa-github"></i> Architecture &amp; Docs</a>
+                </div>
+                <p class="project-desc">
+                    A pipeline that turns a story idea into a finished, narrated and subtitled YouTube Short with no
+                    manual editing. It currently powers a Tamil-language channel retelling stories from the Mahabharata.
+                </p>
+                <div class="showcase-grid">
+                    <div>
+                        <h4>Highlights</h4>
+                        <ul>
+                            <li><strong>LLM story writing</strong> with translation into the target language and an attention-grabbing hook</li>
+                            <li><strong>Character consistency:</strong> a canonical look for every character is injected into each image prompt</li>
+                            <li><strong>Full media chain:</strong> scene planning → AI images → image-to-video clips → multilingual TTS narration</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Engineering</h4>
+                        <ul>
+                            <li><strong>15+ modules</strong> behind provider factories, all switched from one YAML file</li>
+                            <li><strong>Resilient batches:</strong> retries with backoff, LLM fallback and per-video state that resumes after a failure</li>
+                            <li><strong>Composition:</strong> audio/video sync, subtitles, logo and outro, exported for Shorts, Reels and TikTok</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tech-stack">
+                    <span>Python</span><span>Gemini</span><span>ElevenLabs</span><span>Whisper</span><span>MoviePy</span><span>Playwright</span>
+                </div>
+            </article>
+
+            <article class="showcase">
+                <div class="showcase-head">
+                    <div>
+                        <div class="card-label">Web Scraping · Data Quality</div>
+                        <h3><i class="fas fa-car-side"></i> Used-Car Marketplace Search</h3>
+                    </div>
+                    <a href="https://github.com/KrishArul26/Car-buying" target="_blank" rel="noopener" class="btn sm-btn"><i class="fab fa-github"></i> Source Code</a>
+                </div>
+                <p class="project-desc">
+                    I built this when I was looking for a used car in Germany. It searches Kleinanzeigen and AutoScout24
+                    with one set of criteria and merges everything into a single report I can check from my phone.
+                </p>
+                <div class="showcase-grid">
+                    <div>
+                        <h4>Highlights</h4>
+                        <ul>
+                            <li><strong>Trust nothing:</strong> mileage and accident status are re-checked on every listing, since one site's filter silently does nothing</li>
+                            <li><strong>Accident detection:</strong> uses the site's structured damage field where it exists, otherwise reads the ad text and flags "not stated"</li>
+                            <li><strong>Deep details:</strong> gearbox, TÜV date and post date fetched once per ad from its own page</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Engineering</h4>
+                        <ul>
+                            <li><strong>Tracking across runs:</strong> remembers every ad, its first and last seen dates and price changes</li>
+                            <li><strong>Web viewer:</strong> mark ads as reviewed or shortlisted, and trigger a new search from the page</li>
+                            <li><strong>Pluggable sites:</strong> adding a marketplace means adding one module with a <code>search()</code> function</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tech-stack">
+                    <span>Python</span><span>BeautifulSoup</span><span>Requests</span><span>HTTP Server</span><span>JavaScript</span>
+                </div>
+            </article>
+
+            <h3 class="subsection-title">Research</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-content">
+                        <div class="card-label">Publication · SPIE</div>
+                        <h3><i class="fas fa-satellite-dish"></i> Radar-Camera Fusion</h3>
+                        <p class="project-desc">
+                            Multimodal real-time pedestrian detection that fuses radar and camera data with deep learning.
+                        </p>
+                        <div class="card-links">
+                            <a href="https://doi.org/10.1117/12.2619013" target="_blank" rel="noopener" class="btn sm-btn"><i class="fas fa-file-lines"></i> Read the paper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-content">
+                        <div class="card-label">Master's Thesis</div>
+                        <h3><i class="fas fa-car-burst"></i> Vehicle Accident Detection</h3>
+                        <p class="project-desc">
+                            Object tracking and image reconstruction with a U-Net (skip, residual and attention connections)
+                            plus DeepSORT, reaching 87.23% precision.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -184,79 +328,6 @@
                         <span class="tag">InfluxDB</span>
                         <span class="tag">Flask</span>
                         <span class="tag">React</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card featured">
-                    <div class="card-content">
-                        <div class="card-label">Personal project</div>
-                        <h3><i class="fas fa-chart-line"></i> Trading Bot PRO</h3>
-                        <p class="project-desc">
-                            An AI-augmented trading system for Forex and CFD markets. It combines technical strategies
-                            (SuperTrend, Ichimoku, Smart Money Concepts) with LSTM/CNN price models and a local LLM
-                            (Llama 3.2 via Ollama) for news sentiment, plus automated risk management,
-                            backtesting and a React dashboard.
-                        </p>
-                        <div class="tech-stack">
-                            <span>Python</span><span>TensorFlow</span><span>Ollama</span><span>Flask</span><span>React</span>
-                        </div>
-                        <div class="card-links">
-                            <a href="https://github.com/KrishArul26/Trading_Bot_PRO" target="_blank" rel="noopener" class="btn sm-btn"><i class="fab fa-github"></i> Architecture &amp; Docs</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card featured">
-                    <div class="card-content">
-                        <div class="card-label">Personal project</div>
-                        <h3><i class="fab fa-youtube"></i> YouTube Shorts Automation</h3>
-                        <p class="project-desc">
-                            An end-to-end pipeline that turns a topic or source video into a finished YouTube Short:
-                            transcription, LLM script rewriting, scene planning, AI image and video generation,
-                            narration, and final composition with automatic audio/video sync and transitions.
-                        </p>
-                        <div class="tech-stack">
-                            <span>Python</span><span>Gemini / OpenAI</span><span>Whisper</span><span>Playwright</span><span>MoviePy</span>
-                        </div>
-                        <div class="card-links">
-                            <span class="private-note"><i class="fas fa-lock"></i> Private repository, code on request</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="card-content">
-                        <div class="card-label">Personal project</div>
-                        <h3><i class="fas fa-car-side"></i> Used-Car Marketplace Search</h3>
-                        <p class="project-desc">
-                            Searches several German used-car marketplaces (Kleinanzeigen, AutoScout24) with one set of
-                            criteria and merges the results into a single report. It re-checks mileage and accident
-                            status against each listing instead of trusting the sites' filters, and flags anything unverified.
-                        </p>
-                        <div class="tech-stack">
-                            <span>Python</span><span>BeautifulSoup</span><span>Web Scraping</span><span>Data Validation</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="card-content">
-                        <div class="card-label">Research · SPIE</div>
-                        <h3><i class="fas fa-satellite-dish"></i> Radar-Camera Fusion</h3>
-                        <p class="project-desc">
-                            Peer-reviewed publication on multimodal real-time pedestrian detection that fuses radar and
-                            camera data with deep learning.
-                        </p>
-                        <div class="tech-stack">
-                            <span>Computer Vision</span><span>Sensor Fusion</span><span>Deep Learning</span>
-                        </div>
-                        <div class="card-links">
-                            <a href="https://doi.org/10.1117/12.2619013" target="_blank" rel="noopener" class="btn sm-btn"><i class="fas fa-file-lines"></i> Read the paper</a>
-                        </div>
                     </div>
                 </div>
             </div>
