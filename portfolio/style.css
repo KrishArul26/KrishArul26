@@ -752,6 +752,29 @@ footer {
     font-size: 0.8rem;
 }
 
+/* ---------- Keyboard accessibility ---------- */
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 6px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -48px;
+    left: 16px;
+    z-index: 200;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: top var(--ease);
+}
+
+.skip-link:focus { top: 12px; }
+
 /* ---------- Reveal on scroll (only when JS is running) ---------- */
 .js .reveal {
     opacity: 0;
