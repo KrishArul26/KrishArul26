@@ -723,6 +723,88 @@ a.showcase-img:hover img { transform: scale(1.01); }
     color: var(--text-muted);
 }
 
+/* Project overview grid (3 x 3) */
+.overview-title { margin: 8px 0 16px; }
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.ov-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: border-color var(--ease), transform var(--ease);
+}
+
+.ov-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+
+.ov-featured {
+    background:
+        linear-gradient(180deg, rgba(76, 141, 255, 0.08), transparent 60%),
+        var(--surface);
+    border-color: rgba(76, 141, 255, 0.3);
+}
+
+.ov-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.ov-top > i {
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 9px;
+    background: var(--accent-soft);
+    color: var(--accent);
+}
+
+.ov-jump,
+.ov-stars {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    text-decoration: none;
+}
+
+.ov-jump:hover { color: var(--accent); }
+.ov-stars i { color: #f5a524; font-size: 0.65rem; }
+
+.ov-card h4 { font-size: 1rem; font-weight: 600; line-height: 1.35; margin-bottom: 6px; }
+.ov-card h4 a { text-decoration: none; }
+.ov-card h4 a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+.ov-card p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+    flex: 1;
+}
+
+.ov-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.ov-tags span {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    padding: 3px 8px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text-muted);
+}
+
+.overview-more { margin: 16px 0 56px; font-size: 0.82rem; }
+.overview-more a { color: var(--accent); text-decoration: none; }
+.overview-more a:hover { text-decoration: underline; }
+
 /* YouTube proof */
 .proof-media {
     display: flex;
@@ -940,6 +1022,11 @@ footer {
     .case-grid { grid-template-columns: 1fr; gap: 20px; }
     .skills-grid { grid-template-columns: repeat(2, 1fr); }
     .cert-grid { grid-template-columns: 1fr; }
+    .overview-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .overview-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 768px) {
