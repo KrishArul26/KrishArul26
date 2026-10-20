@@ -93,7 +93,9 @@ html {
 
 /* Hero Section */
 .hero-section {
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 6rem !important;
+    padding-bottom: 3rem !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,6 +354,80 @@ html {
 .hero-chip:hover {
     border-color: var(--accent-color);
     transform: translateY(-2px);
+}
+
+/* Hero image cards */
+.hero-content {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.hero-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 auto 2.5rem;
+    max-width: 900px;
+}
+
+.hero-card {
+    position: relative;
+    flex: 0 1 260px;
+    height: 170px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--card-bg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+    transition: var(--transition);
+}
+
+.hero-card-tall {
+    flex: 0 1 150px;
+    height: 240px;
+}
+
+.hero-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-card span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.6rem 0.8rem 0.6rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.hero-card span i {
+    color: var(--accent-color);
+    margin-right: 0.3rem;
+}
+
+.hero-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+    .hero-card {
+        flex-basis: 100%;
+        height: 160px;
+    }
+
+    .hero-card-tall {
+        height: 220px;
+    }
 }
 
 /* Project showcases */
@@ -640,6 +716,12 @@ html {
 .wf-arrow {
     color: var(--text-secondary);
     font-size: 0.75rem;
+}
+
+.showcase-img-chart {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subsection-title {
