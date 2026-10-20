@@ -264,6 +264,16 @@ strong { color: var(--text); font-weight: 600; }
     color: var(--accent);
 }
 
+.domain-grid-2 { grid-template-columns: repeat(2, 1fr); max-width: 760px; }
+
+.domain-kicker {
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 4px;
+}
+
 .domain-title { font-weight: 600; }
 .domain-tile .mono { font-size: 0.75rem; color: var(--text-dim); }
 
@@ -797,5 +807,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .domain-grid { grid-template-columns: 1fr; }
+    .domain-grid,
+    .domain-grid-2 { grid-template-columns: 1fr; }
 }
