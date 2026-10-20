@@ -230,6 +230,125 @@ strong { color: var(--text); font-weight: 600; }
     margin-bottom: 36px;
 }
 
+/* ---------- GitHub activity panel ---------- */
+.gh-panel {
+    max-width: 760px;
+    padding: 20px 22px;
+    margin-bottom: 32px;
+    background: rgba(17, 19, 24, 0.8);
+}
+
+.gh-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.gh-head .mono-heading { margin: 0; }
+.gh-head .mono-heading i { margin-right: 4px; }
+
+.gh-user {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.gh-user:hover { color: var(--accent); }
+.gh-user i { font-size: 0.7rem; margin-left: 4px; }
+
+.gh-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.gh-stat { display: flex; flex-direction: column; }
+
+.gh-value {
+    font-size: 1.45rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+.gh-label { font-size: 0.75rem; color: var(--text-dim); }
+
+.gh-graph-wrap {
+    overflow-x: auto;
+    padding-bottom: 4px;
+    direction: rtl;               /* keep the most recent weeks visible on small screens */
+}
+
+.gh-graph {
+    direction: ltr;
+    display: inline-grid;
+    grid-template-rows: repeat(7, 10px);
+    grid-auto-flow: column;
+    grid-auto-columns: 10px;
+    gap: 3px;
+}
+
+.gh-graph i,
+.gh-legend i {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+}
+
+.gh-graph i.pad { visibility: hidden; }
+
+.l0 { background: rgba(255, 255, 255, 0.06); }
+.l1 { background: rgba(76, 141, 255, 0.3); }
+.l2 { background: rgba(76, 141, 255, 0.55); }
+.l3 { background: rgba(76, 141, 255, 0.8); }
+.l4 { background: #4c8dff; }
+
+.gh-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.gh-legend {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 0.7rem;
+    color: var(--text-dim);
+}
+
+.gh-legend i { margin: 0 1px; }
+
+.gh-badges { display: flex; align-items: center; gap: 10px; }
+.gh-badges-label { font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; }
+
+.gh-badge { position: relative; display: block; transition: transform var(--ease); }
+.gh-badge:hover { transform: translateY(-2px) scale(1.05); }
+.gh-badge img { width: 36px; height: 36px; }
+
+.gh-tier {
+    position: absolute;
+    right: -6px;
+    bottom: -2px;
+    padding: 0 5px;
+    border-radius: 8px;
+    background: #f9d0b0;
+    color: #6b3a14;
+    font-size: 0.62rem;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .gh-stats { grid-template-columns: repeat(2, 1fr); }
+}
+
 .cta-row {
     display: flex;
     flex-wrap: wrap;
