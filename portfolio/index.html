@@ -7,61 +7,73 @@
     <meta name="description" content="Portfolio of Kirsnaragavan Arudpiragasam: Senior Automation Test Engineer building test automation, CI/CD pipelines and AI-driven tools for automotive infotainment.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-    <div class="background-glow"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
 
     <nav class="navbar">
-        <div class="logo">KrishArul26<span class="accent">.</span></div>
+        <a href="#hero" class="logo">KA<span class="accent">.</span></a>
         <ul class="nav-links">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#case-study">Case study</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
         </ul>
         <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
             <i class="fas fa-bars"></i>
         </button>
     </nav>
 
-    <header id="hero" class="hero-section">
-        <div class="hero-content">
-            <h1>Hi, I'm Kirsnaragavan</h1>
-            <h2 class="subtitle">Senior Automation Test Engineer &amp; <span class="gradient-text">AI Builder</span></h2>
-            <p class="hero-description">
-                By day I build test automation for Mercedes-Benz infotainment at MBition. In my own time I build
-                AI systems that automate real problems: trading the markets, producing YouTube videos and finding a used car.
+    <!-- HERO -->
+    <header id="hero" class="hero">
+        <div class="container hero-inner">
+            <p class="eyebrow">Automotive test automation · Applied AI</p>
+            <h1>I automate the testing of<br><span class="accent">automotive software.</span></h1>
+            <p class="lead">
+                Senior Automation Test Engineer at <strong>MBition (Mercedes-Benz)</strong> in Berlin. I build Python
+                tooling, CI/CD pipelines and Robot Framework test automation for in-car infotainment, and I build
+                applied-AI systems in my own time.
             </p>
-            <div class="hero-gallery">
-                <a href="#projects" class="hero-card">
-                    <img src="images/trading-chart.png" alt="EUR/USD hourly chart with EMA 50 and EMA 200">
-                    <span><i class="fas fa-chart-line"></i> Trading Bot PRO</span>
-                </a>
-                <a href="#projects" class="hero-card hero-card-tall">
-                    <img src="images/youtube-short-frame.jpg" alt="Frame from an AI-generated Mahabharata YouTube Short">
-                    <span><i class="fab fa-youtube"></i> YouTube Shorts</span>
-                </a>
-                <a href="#projects" class="hero-card">
-                    <img src="images/car-search-thumb.jpg" alt="Used-car search results viewer">
-                    <span><i class="fas fa-car-side"></i> Used-Car Search</span>
-                </a>
+            <div class="cta-row">
+                <a href="#experience" class="btn btn-primary">View experience <i class="fas fa-arrow-down"></i></a>
+                <a href="#contact" class="btn btn-ghost">Get in touch</a>
             </div>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn primary-btn">View Projects</a>
-                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+
+            <div class="domain-grid">
+                <a href="#case-study" class="domain-tile">
+                    <span class="domain-icon"><i class="fas fa-car"></i></span>
+                    <span class="domain-title">Automotive systems</span>
+                    <span class="mono">Python · Flashing · i3 / i3 MAX / i4</span>
+                </a>
+                <a href="#case-study" class="domain-tile">
+                    <span class="domain-icon"><i class="fas fa-vial"></i></span>
+                    <span class="domain-title">Test automation</span>
+                    <span class="mono">Robot Framework · ADB · SSH · Diagnostics</span>
+                </a>
+                <a href="#case-study" class="domain-tile">
+                    <span class="domain-icon"><i class="fas fa-code-branch"></i></span>
+                    <span class="domain-title">CI/CD</span>
+                    <span class="mono">GitLab CI/CD · Stability pipelines</span>
+                </a>
+                <a href="#projects" class="domain-tile">
+                    <span class="domain-icon"><i class="fas fa-robot"></i></span>
+                    <span class="domain-title">Applied AI</span>
+                    <span class="mono">LLM agents · ML · Computer vision</span>
+                </a>
             </div>
         </div>
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-text">
+    <!-- ABOUT -->
+    <section id="about" class="section section-tight">
+        <div class="container about">
+            <p class="section-label"><span>00</span> About</p>
+            <div class="about-body">
                 <p>
                     I'm a <strong>Senior Automation Test Engineer at MBition</strong>, a Mercedes-Benz subsidiary in Berlin,
                     where I own a Python flashing tool used across a farm of test benches, maintain GitLab CI
@@ -77,21 +89,144 @@
         </div>
     </section>
 
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+        <div class="container">
+            <p class="section-label"><span>01</span> Experience</p>
+            <h2 class="section-title">Where I've worked</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-date mono">Jan 2025 – Present</div>
+                    <div class="timeline-body">
+                        <h3>Senior Automation Test Engineer <span class="company">MBition (Mercedes-Benz)</span></h3>
+                        <ul>
+                            <li>Independently own the implementation, testing and release of the Python flashing tool for the i3 MAX infotainment platform, enabling pipeline-based flashing across the test-bench farm.</li>
+                            <li>Keep monthly flashing success above 93% across more than 15,000 flashing operations.</li>
+                            <li>Develop and maintain GitLab CI/CD stability pipelines for custom and full builds, with automated flashing-error detection.</li>
+                            <li>Develop and maintain 200+ Robot Framework tests covering ADB, diagnostics, SSH, telltales and WIM.</li>
+                            <li>Investigate flashing and automation failures, coordinate root-cause analysis with suppliers and follow defects through to resolution.</li>
+                            <li>Validate i4 flashing-tool releases, contribute custom-module and parallel-download features, and coordinate deployments to the farm and partner sites.</li>
+                            <li>Support other engineering teams with pipeline creation and automated test execution.</li>
+                            <li>Automate telltale and WIM test-case creation with an agentic approach, and built an object-detection model for instrument-cluster icons that replaced pixel-by-pixel image comparison.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date mono">Jan 2023 – Dec 2024</div>
+                    <div class="timeline-body">
+                        <h3>Junior Automation Test Engineer <span class="company">MBition (Mercedes-Benz)</span></h3>
+                        <ul>
+                            <li>Executed daily software-build flashing, smoke tests and sanity tests on vehicles and test benches.</li>
+                            <li>Developed automated diagnostic test cases for automotive infotainment systems.</li>
+                            <li>Implemented and contributed to the Python flashing tool for i3, enabling automated flashing on the test-bench farm through CI/CD pipelines.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date mono">Apr 2022 – Nov 2022</div>
+                    <div class="timeline-body">
+                        <h3>Automation Test Engineer (Student Position) <span class="company">MBition</span></h3>
+                        <ul>
+                            <li>Flashed software builds using DKF and QFIL, created infotainment test sequences using Teddy, and automated log-processing workflows with Python, Bash and Batch.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date mono">Nov 2018 – Jan 2020</div>
+                    <div class="timeline-body">
+                        <h3>Machine Learning Engineer <span class="company">Prime Technologies</span></h3>
+                        <ul>
+                            <li>Built and deployed (Docker, AWS) a sensor fault-detection system for a manufacturing plant, reducing downtime by 7%.</li>
+                            <li>Implemented a camera-based parking module with YOLOv3 and OCR.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date mono">2020 – 2022</div>
+                    <div class="timeline-body">
+                        <h3>M.Eng. Mobility &amp; Automotive Engineering <span class="company">SRH Berlin University</span></h3>
+                        <ul>
+                            <li>Thesis: vehicle accident detection with object tracking and image reconstruction (U-Net + DeepSORT, 87.23% precision).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL CASE STUDY -->
+    <section id="case-study" class="section">
+        <div class="container">
+            <p class="section-label"><span>02</span> Professional case study</p>
+            <h2 class="section-title">Automotive flashing &amp; test automation</h2>
+            <article class="card case reveal">
+                <p class="case-intro">
+                    Every new infotainment software build has to be flashed onto real hardware before it can be tested.
+                    I own the Python tooling and pipelines that do this automatically across a farm of test benches,
+                    and the Robot Framework suites that run once a bench is flashed.
+                </p>
+                <div class="workflow" aria-label="Flashing and test automation workflow">
+                    <div class="wf-step"><i class="fas fa-box-archive"></i><span>Software build<br>artifacts</span></div>
+                    <div class="wf-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="wf-step wf-key"><i class="fab fa-python"></i><span>Python flashing tool<br>CLI · GUI · pipeline</span></div>
+                    <div class="wf-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="wf-step"><i class="fas fa-server"></i><span>Test-bench<br>farm</span></div>
+                    <div class="wf-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="wf-step"><i class="fas fa-vial"></i><span>Robot Framework<br>test suites</span></div>
+                    <div class="wf-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="wf-step"><i class="fas fa-triangle-exclamation"></i><span>Automated error<br>detection</span></div>
+                    <div class="wf-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <div class="wf-step"><i class="fas fa-bug"></i><span>Root cause &amp;<br>defect follow-up</span></div>
+                </div>
+                <div class="case-grid">
+                    <div>
+                        <h4 class="mono-heading">What I own</h4>
+                        <ul>
+                            <li>Design, implementation, testing and release of the flashing tool for the i3 and i3 MAX platforms</li>
+                            <li>GitLab CI/CD stability pipelines for custom and full builds</li>
+                            <li>Release validation and rollout of i4 tooling to the farm and partner sites</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="mono-heading">How it stays reliable</h4>
+                        <ul>
+                            <li>Monthly flashing success kept above 93% across 15,000+ operations</li>
+                            <li>Flashing errors detected automatically in the pipeline</li>
+                            <li>Root-cause analysis with suppliers, followed through to a fixed release</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="mono-heading">How it's tested</h4>
+                        <ul>
+                            <li>200+ Robot Framework tests for ADB, diagnostics, SSH, telltales and WIM</li>
+                            <li>Test cases designed from requirements, with traceability following ASPICE practices</li>
+                            <li>Object detection to verify instrument-cluster icons instead of pixel comparison</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="case-note mono"><i class="fas fa-lock"></i> Details are generalised. No proprietary MBition information is shown.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- PERSONAL PROJECTS -->
     <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title">Personal Projects</h2>
+            <p class="section-label"><span>03</span> Personal projects</p>
+            <h2 class="section-title">Things I build in my own time</h2>
             <p class="section-intro">
-                Outside work I build end-to-end automation systems that combine LLMs, machine learning and
-                classic engineering. Each one started as a problem in my own life.
+                End-to-end automation systems that combine LLMs, machine learning and classic engineering.
+                Each one started as a problem in my own life.
             </p>
 
-            <article class="showcase">
+            <!-- Trading Bot PRO -->
+            <article class="card showcase reveal">
                 <div class="showcase-head">
                     <div>
-                        <div class="card-label">AI · Quantitative Finance</div>
+                        <p class="card-label mono">01 — AI · Quantitative finance</p>
                         <h3><i class="fas fa-chart-line"></i> Trading Bot PRO</h3>
                     </div>
-                    <a href="https://github.com/KrishArul26/Trading_Bot_PRO" target="_blank" rel="noopener" class="btn sm-btn"><i class="fab fa-github"></i> Architecture &amp; Docs</a>
+                    <a href="https://github.com/KrishArul26/Trading_Bot_PRO" target="_blank" rel="noopener" class="btn btn-small"><i class="fab fa-github"></i> Architecture &amp; Docs</a>
                 </div>
                 <p class="project-desc">
                     A 24/7 automated trading system for Forex, CFD and metals markets. It runs several strategies
@@ -121,7 +256,7 @@
                 </div>
                 <div class="showcase-grid">
                     <div>
-                        <h4>Highlights</h4>
+                        <h4 class="mono-heading">Highlights</h4>
                         <ul>
                             <li><strong>Multi-strategy engine:</strong> Parabolic SAR, SuperTrend, UT Bot, Ichimoku, Smart Money Concepts and candlestick patterns</li>
                             <li><strong>Deep learning:</strong> LSTM and CNN models forecast price movement from historical data</li>
@@ -130,7 +265,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h4>Engineering</h4>
+                        <h4 class="mono-heading">Engineering</h4>
                         <ul>
                             <li><strong>Risk management:</strong> position sizing, trailing stop-loss and a daily loss limit</li>
                             <li><strong>Backtesting:</strong> Sharpe ratio, max drawdown, win rate and profit factor before going live</li>
@@ -143,15 +278,16 @@
                 </div>
             </article>
 
-            <article class="showcase">
+            <!-- YouTube Shorts Automation -->
+            <article class="card showcase reveal">
                 <div class="showcase-head">
                     <div>
-                        <div class="card-label">Generative AI · Media Automation</div>
+                        <p class="card-label mono">02 — Generative AI · Media pipelines</p>
                         <h3><i class="fab fa-youtube"></i> YouTube Shorts Automation</h3>
                     </div>
                     <div class="showcase-links">
-                        <a href="https://www.youtube.com/@tamilithihasakathaigal-b8o/shorts" target="_blank" rel="noopener" class="btn sm-btn yt-btn"><i class="fab fa-youtube"></i> Watch the Shorts</a>
-                        <a href="https://github.com/KrishArul26/YouTube_Automation_PRO" target="_blank" rel="noopener" class="btn sm-btn"><i class="fab fa-github"></i> Architecture &amp; Docs</a>
+                        <a href="https://www.youtube.com/@tamilithihasakathaigal-b8o/shorts" target="_blank" rel="noopener" class="btn btn-small btn-yt"><i class="fab fa-youtube"></i> Watch the Shorts</a>
+                        <a href="https://github.com/KrishArul26/YouTube_Automation_PRO" target="_blank" rel="noopener" class="btn btn-small"><i class="fab fa-github"></i> Architecture &amp; Docs</a>
                     </div>
                 </div>
                 <p class="project-desc">
@@ -164,7 +300,7 @@
                         <img src="images/youtube-shorts-sample.gif" alt="Sample clips from a Short generated by the pipeline: AI-generated Mahabharata scenes with Tamil subtitles" loading="lazy">
                     </a>
                     <div class="proof-text">
-                        <div class="card-label">Sample output</div>
+                        <p class="card-label mono">Sample output</p>
                         <p>
                             Clips from one generated Short: every scene, character image, narration line and Tamil
                             subtitle was produced automatically from a single story idea.
@@ -176,7 +312,7 @@
                         </a>
                     </div>
                 </div>
-                <h4 class="gallery-title"><i class="fab fa-youtube"></i> Watch generated Shorts</h4>
+                <h4 class="mono-heading gallery-title">Watch generated Shorts</h4>
                 <div class="shorts-gallery">
                     <div class="short-embed">
                         <iframe src="https://www.youtube-nocookie.com/embed/syKTFCF9H5c" title="Generated Short: the one big mistake the Pandavas made" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -208,7 +344,7 @@
                 </div>
                 <div class="showcase-grid">
                     <div>
-                        <h4>Highlights</h4>
+                        <h4 class="mono-heading">Highlights</h4>
                         <ul>
                             <li><strong>LLM story writing</strong> with translation into the target language and an attention-grabbing hook</li>
                             <li><strong>Agentic character design:</strong> a chain of specialised agents (scholar researcher → iconographer → cinematic assembler) builds each character's canonical appearance from the source texts. A strict validator agent then checks it and a rewriter applies the corrections.</li>
@@ -217,7 +353,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h4>Engineering</h4>
+                        <h4 class="mono-heading">Engineering</h4>
                         <ul>
                             <li><strong>15+ modules</strong> behind provider factories, all switched from one YAML file</li>
                             <li><strong>Resilient batches:</strong> retries with backoff, LLM fallback and per-video state that resumes after a failure</li>
@@ -230,13 +366,14 @@
                 </div>
             </article>
 
-            <article class="showcase">
+            <!-- Used-Car Search -->
+            <article class="card showcase reveal">
                 <div class="showcase-head">
                     <div>
-                        <div class="card-label">Web Scraping · Data Quality</div>
+                        <p class="card-label mono">03 — Web scraping · Data quality</p>
                         <h3><i class="fas fa-car-side"></i> Used-Car Marketplace Search</h3>
                     </div>
-                    <a href="https://github.com/KrishArul26/Car-buying" target="_blank" rel="noopener" class="btn sm-btn"><i class="fab fa-github"></i> Source Code</a>
+                    <a href="https://github.com/KrishArul26/Car-buying" target="_blank" rel="noopener" class="btn btn-small"><i class="fab fa-github"></i> Source Code</a>
                 </div>
                 <p class="project-desc">
                     I built this when I was looking for a used car in Germany. It searches Kleinanzeigen and AutoScout24
@@ -247,7 +384,7 @@
                 </a>
                 <div class="showcase-grid">
                     <div>
-                        <h4>Highlights</h4>
+                        <h4 class="mono-heading">Highlights</h4>
                         <ul>
                             <li><strong>Trust nothing:</strong> mileage and accident status are re-checked on every listing, since one site's filter silently does nothing</li>
                             <li><strong>Accident detection:</strong> uses the site's structured damage field where it exists, otherwise reads the ad text and flags "not stated"</li>
@@ -255,7 +392,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h4>Engineering</h4>
+                        <h4 class="mono-heading">Engineering</h4>
                         <ul>
                             <li><strong>Tracking across runs:</strong> remembers every ad, its first and last seen dates and price changes</li>
                             <li><strong>Web viewer:</strong> mark ads as reviewed or shortlisted, and trigger a new search from the page</li>
@@ -269,206 +406,90 @@
             </article>
 
             <h3 class="subsection-title">Research</h3>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="card-content">
-                        <div class="card-label">Publication · SPIE</div>
-                        <h3><i class="fas fa-satellite-dish"></i> Radar-Camera Fusion</h3>
-                        <p class="project-desc">
-                            Multimodal real-time pedestrian detection that fuses radar and camera data with deep learning.
-                        </p>
-                        <div class="card-links">
-                            <a href="https://doi.org/10.1117/12.2619013" target="_blank" rel="noopener" class="btn sm-btn"><i class="fas fa-file-lines"></i> Read the paper</a>
-                        </div>
-                    </div>
+            <div class="research-grid">
+                <div class="card research-card reveal">
+                    <p class="card-label mono">Publication · SPIE</p>
+                    <h3><i class="fas fa-satellite-dish"></i> Radar-Camera Fusion</h3>
+                    <p class="project-desc">Multimodal real-time pedestrian detection that fuses radar and camera data with deep learning.</p>
+                    <a href="https://doi.org/10.1117/12.2619013" target="_blank" rel="noopener" class="btn btn-small"><i class="fas fa-file-lines"></i> Read the paper</a>
                 </div>
-                <div class="project-card">
-                    <div class="card-content">
-                        <div class="card-label">Master's Thesis</div>
-                        <h3><i class="fas fa-car-burst"></i> Vehicle Accident Detection</h3>
-                        <p class="project-desc">
-                            Object tracking and image reconstruction with a U-Net (skip, residual and attention connections)
-                            plus DeepSORT, reaching 87.23% precision.
-                        </p>
-                    </div>
+                <div class="card research-card reveal">
+                    <p class="card-label mono">Master's thesis</p>
+                    <h3><i class="fas fa-car-burst"></i> Vehicle Accident Detection</h3>
+                    <p class="project-desc">Object tracking and image reconstruction with a U-Net (skip, residual and attention connections) plus DeepSORT, reaching 87.23% precision.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="section">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">Jan 2025 – Present</div>
-                    <div class="timeline-body">
-                        <h3>Senior Automation Test Engineer <span class="company">· MBition (Mercedes-Benz)</span></h3>
-                        <ul>
-                            <li>Independently own the implementation, testing and release of the Python flashing tool for the i3 MAX infotainment platform, enabling pipeline-based flashing across the test-bench farm.</li>
-                            <li>Keep monthly flashing success above 93% across more than 15,000 flashing operations.</li>
-                            <li>Develop and maintain GitLab CI/CD stability pipelines for custom and full builds, with automated flashing-error detection.</li>
-                            <li>Develop and maintain 200+ Robot Framework tests covering ADB, diagnostics, SSH, telltales and WIM.</li>
-                            <li>Investigate flashing and automation failures, coordinate root-cause analysis with suppliers and follow defects through to resolution.</li>
-                            <li>Validate i4 flashing-tool releases, contribute custom-module and parallel-download features, and coordinate deployments to the farm and partner sites.</li>
-                            <li>Support other engineering teams with pipeline creation and automated test execution.</li>
-                            <li>Automate telltale and WIM test-case creation with an agentic approach, and built an object-detection model for instrument-cluster icons that replaced pixel-by-pixel image comparison.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">Jan 2023 – Dec 2024</div>
-                    <div class="timeline-body">
-                        <h3>Junior Automation Test Engineer <span class="company">· MBition (Mercedes-Benz)</span></h3>
-                        <ul>
-                            <li>Executed daily software-build flashing, smoke tests and sanity tests on vehicles and test benches.</li>
-                            <li>Developed automated diagnostic test cases for automotive infotainment systems.</li>
-                            <li>Implemented and contributed to the Python flashing tool for i3, enabling automated flashing on the test-bench farm through CI/CD pipelines.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">Apr 2022 – Nov 2022</div>
-                    <div class="timeline-body">
-                        <h3>Automation Test Engineer (Student Position) <span class="company">· MBition</span></h3>
-                        <ul>
-                            <li>Flashed software builds using DKF and QFIL, created infotainment test sequences using Teddy, and automated log-processing workflows with Python, Bash and Batch.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">Nov 2018 – Jan 2020</div>
-                    <div class="timeline-body">
-                        <h3>Machine Learning Engineer <span class="company">· Prime Technologies</span></h3>
-                        <ul>
-                            <li>Built and deployed (Docker, AWS) a sensor fault-detection system for a manufacturing plant, reducing downtime by 7%.</li>
-                            <li>Implemented a camera-based parking module with YOLOv3 and OCR.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2020 – 2022</div>
-                    <div class="timeline-body">
-                        <h3>M.Eng. Mobility &amp; Automotive Engineering <span class="company">· SRH Berlin University</span></h3>
-                        <ul>
-                            <li>Thesis: vehicle accident detection with object tracking and image reconstruction (U-Net + DeepSORT, 87.23% precision).</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- SKILLS -->
     <section id="skills" class="section">
         <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-label"><span>04</span> Skills</p>
+            <h2 class="section-title">Tools by engineering domain</h2>
             <div class="skills-grid">
-                <div class="skill-category">
+                <div class="card skill-card reveal">
                     <h3><i class="fas fa-code"></i> Programming &amp; Scripting</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Python (OOP)</span>
-                        <span class="tag">Bash / Shell</span>
-                        <span class="tag">Batch</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">R</span>
-                    </div>
+                    <div class="skill-tags"><span>Python (OOP)</span><span>Bash / Shell</span><span>Batch</span><span>SQL</span><span>JavaScript</span><span>R</span></div>
                 </div>
-                <div class="skill-category">
+                <div class="card skill-card reveal">
                     <h3><i class="fas fa-vial"></i> Test Automation</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Robot Framework</span>
-                        <span class="tag">ADB</span>
-                        <span class="tag">logcat</span>
-                        <span class="tag">SSH</span>
-                        <span class="tag">Diagnostic Testing</span>
-                        <span class="tag">Playwright</span>
-                        <span class="tag">Selenium</span>
-                    </div>
+                    <div class="skill-tags"><span>Robot Framework</span><span>ADB</span><span>logcat</span><span>SSH</span><span>Diagnostic Testing</span><span>Playwright</span><span>Selenium</span></div>
                 </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-gears"></i> CI/CD &amp; DevOps</h3>
-                    <div class="skill-tags">
-                        <span class="tag">GitLab CI/CD</span>
-                        <span class="tag">Jenkins</span>
-                        <span class="tag">Git</span>
-                        <span class="tag">Docker</span>
-                        <span class="tag">JFrog Artifactory</span>
-                        <span class="tag">REST API</span>
-                        <span class="tag">Grafana</span>
-                    </div>
+                <div class="card skill-card reveal">
+                    <h3><i class="fas fa-code-branch"></i> CI/CD &amp; DevOps</h3>
+                    <div class="skill-tags"><span>GitLab CI/CD</span><span>Jenkins</span><span>Git</span><span>Docker</span><span>JFrog Artifactory</span><span>REST API</span><span>Grafana</span></div>
                 </div>
-                <div class="skill-category">
+                <div class="card skill-card reveal">
                     <h3><i class="fas fa-car"></i> Automotive &amp; Flashing</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Android</span>
-                        <span class="tag">QNX</span>
-                        <span class="tag">QFIL</span>
-                        <span class="tag">DKF</span>
-                        <span class="tag">Fastboot</span>
-                        <span class="tag">CDD / Diagnostics</span>
-                    </div>
+                    <div class="skill-tags"><span>Android</span><span>QNX</span><span>QFIL</span><span>DKF</span><span>Fastboot</span><span>CDD / Diagnostics</span></div>
                 </div>
-                <div class="skill-category">
+                <div class="card skill-card reveal">
                     <h3><i class="fas fa-brain"></i> AI &amp; Machine Learning</h3>
-                    <div class="skill-tags">
-                        <span class="tag">TensorFlow &amp; Keras</span>
-                        <span class="tag">PyTorch</span>
-                        <span class="tag">OpenCV</span>
-                        <span class="tag">YOLO</span>
-                        <span class="tag">LLMs (Gemini, Ollama)</span>
-                        <span class="tag">Agentic workflows</span>
-                    </div>
+                    <div class="skill-tags"><span>TensorFlow &amp; Keras</span><span>PyTorch</span><span>OpenCV</span><span>YOLO</span><span>LLMs (Gemini, Ollama)</span><span>Agentic workflows</span></div>
                 </div>
-                <div class="skill-category">
+                <div class="card skill-card reveal">
                     <h3><i class="fas fa-database"></i> Data &amp; Web</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Pandas</span>
-                        <span class="tag">PostgreSQL / MySQL</span>
-                        <span class="tag">MongoDB</span>
-                        <span class="tag">InfluxDB</span>
-                        <span class="tag">Flask</span>
-                        <span class="tag">React</span>
-                    </div>
+                    <div class="skill-tags"><span>Pandas</span><span>PostgreSQL / MySQL</span><span>MongoDB</span><span>InfluxDB</span><span>Flask</span><span>React</span></div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="certifications" class="section section-tight">
-        <div class="container">
-            <h2 class="section-title">Certifications</h2>
+            <h3 class="subsection-title">Certifications</h3>
             <div class="cert-grid">
-                <a class="cert-card" href="https://www.credential.net/5c829028-f254-4590-89b1-a8844894b3b6" target="_blank" rel="noopener">
-                    <i class="fab fa-google"></i><span>TensorFlow Developer</span>
+                <a class="card cert-card" href="https://www.credential.net/5c829028-f254-4590-89b1-a8844894b3b6" target="_blank" rel="noopener">
+                    <i class="fab fa-google"></i><span>TensorFlow Developer</span><i class="fas fa-arrow-up-right-from-square cert-link"></i>
                 </a>
-                <a class="cert-card" href="https://www.credential.net/c61943bb-ac7a-4ce7-a81d-70a5b716b769?key=8c72ab505b5b93d52f84e1e2e9e1b665dd16e3981b4bd405dbed0b88609050a9&amp;record_view=true" target="_blank" rel="noopener">
-                    <i class="fab fa-google"></i><span>Associate Cloud Engineer</span>
+                <a class="card cert-card" href="https://www.credential.net/c61943bb-ac7a-4ce7-a81d-70a5b716b769?key=8c72ab505b5b93d52f84e1e2e9e1b665dd16e3981b4bd405dbed0b88609050a9&amp;record_view=true" target="_blank" rel="noopener">
+                    <i class="fab fa-google"></i><span>Associate Cloud Engineer</span><i class="fas fa-arrow-up-right-from-square cert-link"></i>
                 </a>
-                <a class="cert-card" href="https://www.credential.net/2b3df048-5213-41b7-b072-eb735776d3e1?key=0d38508691fbce896c2b3126ad3becd0ba2659311dc71bcce8106644c162ef13" target="_blank" rel="noopener">
-                    <i class="fab fa-google"></i><span>Professional ML Engineer</span>
+                <a class="card cert-card" href="https://www.credential.net/2b3df048-5213-41b7-b072-eb735776d3e1?key=0d38508691fbce896c2b3126ad3becd0ba2659311dc71bcce8106644c162ef13" target="_blank" rel="noopener">
+                    <i class="fab fa-google"></i><span>Professional ML Engineer</span><i class="fas fa-arrow-up-right-from-square cert-link"></i>
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="contact-text">
-                Interested in test automation, CI/CD or applied AI for automotive software? I'm based in Berlin
-                and happy to talk.
-            </p>
-            <div class="social-links">
-                <a href="http://www.linkedin.com/in/arul-krisnaragavan" target="_blank" rel="noopener" class="social-btn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-                <a href="mailto:ragavan.arul26@gmail.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
-                <a href="https://github.com/KrishArul26" target="_blank" rel="noopener" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+            <div class="card contact-card reveal">
+                <p class="section-label"><span>05</span> Contact</p>
+                <h2 class="contact-title">Let's talk about test automation.</h2>
+                <p class="contact-text">
+                    Interested in test automation, CI/CD or applied AI for automotive software? I'm based in Berlin
+                    and happy to talk.
+                </p>
+                <a href="mailto:ragavan.arul26@gmail.com" class="contact-email mono">ragavan.arul26@gmail.com</a>
+                <div class="social-links">
+                    <a href="http://www.linkedin.com/in/arul-krisnaragavan" target="_blank" rel="noopener" class="btn btn-ghost"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="https://github.com/KrishArul26" target="_blank" rel="noopener" class="btn btn-ghost"><i class="fab fa-github"></i> GitHub</a>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Kirsnaragavan Arudpiragasam. Built with <i class="fas fa-heart accent"></i> and code.</p>
+        <p class="mono">&copy; 2026 Kirsnaragavan Arudpiragasam · Berlin</p>
     </footer>
 
     <script src="script.js"></script>
