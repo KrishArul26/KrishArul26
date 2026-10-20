@@ -56,6 +56,10 @@ function setStat(name, value) {
     if (el && Number.isFinite(value)) el.textContent = value.toLocaleString('en-US');
 }
 
+// Private repositories can't be counted without a login token, which must never be
+// put in public page code. Update this number by hand when it changes.
+const PRIVATE_REPOS = 12;
+
 async function loadGitHubActivity(user) {
     const graph = document.querySelector('.gh-graph');
 
@@ -65,7 +69,9 @@ async function loadGitHubActivity(user) {
             fetch(`https://api.github.com/users/${user}`).then(r => r.ok ? r.json() : Promise.reject(r.status)),
             fetch(`https://api.github.com/users/${user}/repos?per_page=100`).then(r => r.ok ? r.json() : Promise.reject(r.status)),
         ]);
-        setStat('repos', profile.public_repos);
+        setStat('public', profile.public_repos);
+        setStat('private', PRIVATE_REPOS);
+        setStat('repos', profile.public_repos + PRIVATE_REPOS);
         setStat('followers', profile.followers);
         setStat('stars', repos.reduce((sum, repo) => sum + (repo.stargazers_count || 0), 0));
     } catch (e) {
